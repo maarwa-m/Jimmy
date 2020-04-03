@@ -117,6 +117,10 @@ ul, ol {
 }
 /* buttons */
 
+.width {
+    width: 200px !important;
+}
+
 .primary-btn {
 	display: inline-block;
 	font-size: 16px;
