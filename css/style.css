@@ -1066,7 +1066,7 @@ ul, ol {
 	padding-top: 0;
 }
 .classes-timetable .nav-controls {
-	text-align: center;
+	text-align: center !important;
 	margin-bottom: 42px;
 }
 .classes-timetable .nav-controls ul li {
