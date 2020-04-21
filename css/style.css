@@ -238,6 +238,7 @@ ul, ol {
 }
 .logo {
 	float: left;
+	display: inline-block
 }
 .logo a {
 	display: inline-block;
@@ -245,6 +246,8 @@ ul, ol {
 }
 .nav-menu {
 	float: right;
+	display: inline-block;
+	padding: 24px 0 29px;
 }
 .nav-menu .mainmenu {
 	display: inline-block;
@@ -399,9 +402,10 @@ ul, ol {
 }
 .services-item.bg-gray {
 	background: #1e1e1e;
-}
+	}
 .services-item.pd-b {
 	padding-top: 118px;
+	padding-bottom: 80px;
 }
 .services-item img {
 	position: absolute;
@@ -412,14 +416,15 @@ ul, ol {
 	font-size: 22px;
 	color: #ffffff;
 	font-weight: 600;
-	margin-top: 36px;
+	margin-top: 40px;
 	margin-bottom: 20px;
 }
 .services-item p {
 	color: #bdbdbd;
-	margin-bottom: 0;
+	margin-top: 50 ;
+	margin-bottom: 30;
 }
-/*---------------------
+/*---------------------S
   Classes Section
 -----------------------*/
 
