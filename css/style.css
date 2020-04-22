@@ -334,17 +334,15 @@ ul, ol {
 	-webkit-transform: translate(-41.5px, -41.5px);
 	-ms-transform: translate(-41.5px, -41.5px);
 	transform: translate(-41.5px, -41.5px);
+	
 }
 .about-text {
 	padding-top: 15px;
 	padding-left: 40px;
 }
 .about-text h2 {
-	font-size: 40px;
-	color: #111111;
-	text-transform: uppercase;
-	font-weight: 700;
-	margin-bottom: 25px;
+	
+	
 }
 .about-text p {
 	color: #6b6b6b;
@@ -399,7 +397,7 @@ ul, ol {
 	height: 330px;
 }
 .services-item.bg-gray {
-	background: #1e1e1e;
+	background: #1e1e1e; 
 	}
 .services-item.pd-b {
 	padding-top: 118px;
@@ -419,8 +417,9 @@ ul, ol {
 }
 .services-item p {
 	color: #bdbdbd;
-	margin-top: 50 ;
-	margin-bottom: 30;
+	font-size: 12px; 
+	font:"poppins", sans-serif;
+	text-align: justify;
 }
 /*---------------------S
   Classes Section
