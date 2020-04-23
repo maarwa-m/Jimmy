@@ -104,6 +104,11 @@ ul, ol {
 	background-size: cover;
 	background-position: top center;
 }
+
+.mockup {
+    margin: 0 0 50px 50px !important;
+}
+
 .spad {
 	padding-top: 100px;
 	padding-bottom: 100px;
