@@ -438,6 +438,9 @@ vidéo background
 .h2-content{
     text-align: center
 }
+.video {
+    margin-top: inherit
+}
 /*---------------------
   Hero Section
 -----------------------*/
