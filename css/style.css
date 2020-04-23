@@ -397,11 +397,17 @@ ul, ol {
 	height: 330px;
 }
 .services-item.bg-gray {
-	background: #1e1e1e; 
+	background: #1e1e1e;
 	}
 .services-item.pd-b {
 	padding-top: 118px;
 	padding-bottom: 80px;
+	font-size: 12px; 
+	font:"poppins", sans-serif;
+	font-weight: 400px; 
+	line-height: 26px; 
+	margin: 15
+
 }
 .services-item img {
 	position: absolute;
@@ -419,7 +425,6 @@ ul, ol {
 	color: #bdbdbd;
 	font-size: 12px; 
 	font:"poppins", sans-serif;
-	text-align: justify;
 }
 /*---------------------S
   Classes Section
