@@ -319,7 +319,7 @@ ul, ol {
 }
 /*-------------
 vidéo background
------------*/
+-----------
 
   .homepage-hero-module {
     border-right: none;
@@ -426,6 +426,12 @@ vidéo background
 }
 .about-section.about-page .about-text .second-para {
 	margin-bottom: 28px;
+}
+.text-content {
+    text-align: justify
+}
+.h2-content{
+    text-align: center
 }
 /*---------------------
   Hero Section
