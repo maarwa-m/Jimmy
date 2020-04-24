@@ -237,7 +237,7 @@ ul, ol {
 	left: 0;
 	top: 0;
 	width: 100%;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 3px solid rgba(255, 255, 255, 0.2);
 }
 .logo {
 	float: left;
@@ -264,7 +264,7 @@ ul, ol {
 	opacity: 1;
 }
 .nav-menu .mainmenu ul li a {
-	font-size: 16px;
+	font-size: 19px;
 	color: white;
 	font-weight: 600;
 	padding: 28px 0;
@@ -289,6 +289,7 @@ ul, ol {
 .nav-menu .signup-btn {
 	display: inline-block;
 	margin: 16px 0px 16px 30px;
+	font-size: 19px;
 }
 .nav-menu .signup-btn:after {
 	opacity: 0;
