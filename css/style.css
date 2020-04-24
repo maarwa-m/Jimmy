@@ -814,6 +814,12 @@ vidéo background
 	background: linear-gradient(to right, #eb3c5a, #f67831);
 	content: "";
 }
+.membership-item .mi-pricee {
+    font-size: 25px;
+	color: #f15d44;
+	font-weight: 600;
+	margin-bottom: 24px;
+}
 .membership-item .mi-price {
 	font-size: 40px;
 	color: #f15d44;
@@ -860,7 +866,7 @@ vidéo background
 .register-section {
 	background: #f5f4f4;
 	padding-top: 235px;
-	margin-top: -135px;
+	margin-top: 90px;
 }
 .register-section.classes-page {
 	background: #ffffff;
