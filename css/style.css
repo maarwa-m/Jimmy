@@ -305,14 +305,14 @@ ul, ol {
 	padding-top: 335px;
 }
 .hero-text span {
-	font-size: 14px;
+	font-size: 50px;
 	color: #f15d44;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 600;
 }
 .hero-text h1 {
-	font-size: 72px;
+	font-size: 50px;
 	color: #ffffff;
 	font-weight: 600;
 	margin-top: 11px;
@@ -834,7 +834,7 @@ vidéo background
 	font-weight: 600;
 }
 .membership-item .membership-btn {
-	color: #111111;
+	color: #FFFFFF;
 }
 .membership-item .membership-btn:hover {
 	color: #ffffff;
