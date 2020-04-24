@@ -105,9 +105,7 @@ ul, ol {
 	background-position: top center;
 }
 
-.mockup {
-    margin: 0 0 50px 50px !important;
-}
+
 
 .spad {
 	padding-top: 100px;
@@ -495,6 +493,15 @@ vidéo background
 	font:"poppins", sans-serif;
 	text-align: justify;
 }
+
+/*---------------------S
+  Mockup Section
+-----------------------*/
+
+.mockup {
+    margin: 0 0 200px 300px !important;
+}
+
 /*---------------------S
   Classes Section
 -----------------------*/
