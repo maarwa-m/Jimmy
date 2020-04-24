@@ -235,7 +235,7 @@ ul, ol {
 	left: 0;
 	top: 0;
 	width: 100%;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 3px solid rgba(255, 255, 255, 0.2);
 }
 .logo {
 	float: left;
@@ -262,7 +262,7 @@ ul, ol {
 	opacity: 1;
 }
 .nav-menu .mainmenu ul li a {
-	font-size: 16px;
+	font-size: 19px;
 	color: white;
 	font-weight: 600;
 	padding: 28px 0;
@@ -287,6 +287,7 @@ ul, ol {
 .nav-menu .signup-btn {
 	display: inline-block;
 	margin: 16px 0px 16px 30px;
+	font-size: 19px;
 }
 .nav-menu .signup-btn:after {
 	opacity: 0;
@@ -303,14 +304,14 @@ ul, ol {
 	padding-top: 335px;
 }
 .hero-text span {
-	font-size: 14px;
+	font-size: 50px;
 	color: #f15d44;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 600;
 }
 .hero-text h1 {
-	font-size: 72px;
+	font-size: 50px;
 	color: #ffffff;
 	font-weight: 600;
 	margin-top: 11px;
@@ -841,7 +842,7 @@ vidéo background
 	font-weight: 600;
 }
 .membership-item .membership-btn {
-	color: #111111;
+	color: #FFFFFF;
 }
 .membership-item .membership-btn:hover {
 	color: #ffffff;
