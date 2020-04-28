@@ -321,6 +321,15 @@ ul, ol {
 	color: #ffffff;
 	margin-bottom: 44px;
 }
+
+/*---------------------S
+  Mockup Section
+-----------------------*/
+
+.mockup {
+    margin: 0 0 200px 0px !important;
+}
+
 /*-------------
 vidéo background
 -----------
@@ -494,13 +503,6 @@ vidéo background
 	text-align: justify;
 }
 
-/*---------------------S
-  Mockup Section
------------------------*/
-
-.mockup {
-    margin: 0 0 0px 0px !important;
-}
 
 /*---------------------S
   Classes Section
