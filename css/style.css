@@ -954,7 +954,7 @@ vidéo background
 .footer-banner-item:after {
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 60%;
 	width: 520px;
 	height: 310px;
 	border: 18px solid rgba(255, 255, 255, 0.1);
