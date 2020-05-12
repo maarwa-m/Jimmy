@@ -513,7 +513,7 @@ vidéo background
 
 .classes-section {
 	padding-top: 90px;
-	padding-bottom: 95px;
+	padding-bottom: 85px;
 }
 .classes-section.classes-page {
 	padding-bottom: 60px;
@@ -582,7 +582,7 @@ vidéo background
 .trainer-section {
 	background: #f5f5f5;
 	padding-top: 90px;
-	padding-bottom: 190px;
+	padding-bottom: 100px;
 }
 .trainer-section.about-trainer {
 	background: #ffffff;
@@ -751,34 +751,12 @@ vidéo background
 	color: #f15d44;
 }
 /*---------------------
-  Banner Section
------------------------*/
-
-.banner-section {
-	padding-top: 65px;
-}
-.banner-text {
-	padding-top: 145px;
-}
-.banner-text h2 {
-	font-size: 40px;
-	color: #ffffff;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-}
-.banner-text p {
-	font-size: 18px;
-	line-height: 30px;
-	color: #ffffff;
-	margin-bottom: 50px;
-}
-/*---------------------
   Membership Section
 -----------------------*/
 
 .membership-section {
 	padding-bottom: 0;
+    margin-top: 0px;
 }
 .membership-section .section-title {
 	margin-bottom: 55px;
