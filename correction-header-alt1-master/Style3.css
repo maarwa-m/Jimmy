@@ -1,0 +1,21 @@
+.vp-section {
+    background-image: url(code.PNG);
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+.h1color {
+    color: white !important;
+}
+
+.font {
+    font: maiandra GD;
+    font-size: 65px
+}
+
+.full {
+    width: 100%;
+    height: auto:
+}
