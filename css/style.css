@@ -301,7 +301,7 @@ ul, ol {
 
 .hero-section {
 	height: 880px;
-	padding-top: 335px;
+	padding-top: 170px;
 }
 .hero-text span {
 	font-size: 50px;
@@ -328,6 +328,10 @@ ul, ol {
 
 .mockup {
     margin: 0 0 200px 0px !important;
+}
+.pic {
+    height: 50%;
+    width: 50%
 }
 
 /*-------------
