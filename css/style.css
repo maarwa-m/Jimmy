@@ -322,6 +322,10 @@ ul, ol {
 	margin-bottom: 44px;
 }
 
+.hero-section a {
+    margin: 20px 0px 0 200px;
+}
+
 /*---------------------S
   Mockup Section
 -----------------------*/
