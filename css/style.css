@@ -323,10 +323,8 @@ ul, ol {
 }
 
 .hero-section a {
-    margin: 20px 0px 0 200px; !important!;
-    right: auto;
+    margin: 20px 0px 0 200px; !important!; 
 }
-
 /*---------------------S
   Mockup Section
 -----------------------*/
