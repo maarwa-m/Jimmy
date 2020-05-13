@@ -8,6 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jimmy - le sport comme vous voulez</title>
+    
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
@@ -20,7 +39,10 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="javascript" href="video.js">
+    <link rel="stylesheet" href="css/style_coverr.css" type="text/css">
+    <link rel="javascript" href="video.js" type="j">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="video.js"></script>
 </head>
 
 <body>
@@ -37,16 +59,17 @@
                     <img src="img/logofinal.png" alt="">
                 </a>
             </div>
-            <div class="nav-menu">
+            <div class="nav-menu" style="margin-right: -50px">
                 <nav class="mainmenu mobile-menu">
 					<ul>
-                        <li><a href="C:/Users/User/Documents/GitHub/Jimmy/coachhtml">Coach</a></li>
-                        <li><a href="C:/Users/User/Documents/GitHub/Jimmy/programmehtml">Programme</a></li>
-                        <li><a href="C:/Users/User/Documents/GitHub/Jimmy/agendahtml">Agenda</a></li>
-						<li class="active"><a href="C:/Users/User/Documents/GitHub/Jimmy/about-ushtml">À Propos </a></li>
+                        <li><a href="C:/Users/User/Documents/GitHub/Jimmy/coach.html">Coach</a></li>
+                        <li><a href="C:/Users/User/Documents/GitHub/Jimmy/programme.html">Programme</a></li>
+                        <li><a href="C:/Users/User/Documents/GitHub/Jimmy/agenda.html">Agenda</a></li>
+						<li class="active"><a href="C:/Users/User/Documents/GitHub/Jimmy/about-us.html">À Propos </a></li>
                     </ul>
                 </nav>
-                <a href="#" class="primary-btn signup-btn">Se connecter</a>
+                <a href="#" class="primary-btn signup-btn" data-toggle="modal" data-target="#connexion">Se connecter</a>
+                <a href="#" class="primary-btn signup-btn" style="background: linear-gradient(to left, #eb3c5a, #f67831)" data-toggle="modal" data-target="#inscription"><i class="fa fa-heart" aria-hidden="true"></i> S'inscrire </a>
             </div>
             <div id="mobile-menu-wrap"></div>
         </div>
@@ -54,21 +77,7 @@
     <!-- Header End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero-section set-bg" style="height: 119vh" data-setbg="img/fond1.png">  
-    <!--do not display
-
-          <div class="homepage-hero-module">
-            <div class="video-container">
-              <div class="filter"></div>
-              <video autoplay loop muted playsinline src="img/cover1.mp4" class="fillWidth"></video>
-              <div class="poster hidden">
-                <img src="img/hero-bg.jpg" alt="">
-              </div>
-            </div>
-          </div>
-
-    --yet-->
-        
+    <section class="hero-section set-bg" style="height: 117vh" data-setbg="img/fond1.png">      
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -76,15 +85,15 @@
                         <h1>TROUVEZ VOTRE COACH</h1>
                         <p></p>
                         <div>
-                        <img class="pic col-lg-6 d-flex justify-content-end" style="margin-left: 80px" src="img/playstore.png" alt="">
+                        <img class="pic col-lg-6 d-flex justify-content-end" style="margin-left: 80px; max-width: 45% !important" src="img/playstore.png" alt="">
                         </div>
                         <div>
-                        <img class="pic col-lg-6 d-flex justify-content-end" style="margin-left: 80px" src="img/appstore.png" alt="">
+                        <img class="pic col-lg-6 d-flex justify-content-end" style="margin-left: 80px; max-width: 45% !important" src="img/appstore.png" alt="">
                         </div>
-                        <a href="#" class="primary-btn" style="width: 180px !important; justify-content: center!important">Téléchargez l'app</a>
+                        <a href="#" class="primary-btn d-flex" style="width: 180px !important; margin-top: 30px;margin-left: 150px;">Téléchargez l'app</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 d-flex justify-content-end">
+                <div class="col-lg-3 d-flex justify-content-end">
                         <img class="mockup" src="img/Mockup%20blanc.png" alt="">
                 </div>
             </div>
@@ -93,7 +102,7 @@
     <!-- Hero Section End -->
 
     <!-- About Section Begin -->
-    <section class="about-section spad">
+    <section class="about-section spad" style="padding-top: 40px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -110,15 +119,30 @@
                         
                         <p class="second-para justify-content text-content">Nous pensons réellement que la pratique du sport doit se faire avec le minimum de contraintes afin de ne conserver que le plaisir. Raison pour laquelle nous avons créé Jimmy...</p>
                         <a href="#" class="primary-btn">En savoir plus</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- About Section End -->
+        
+    <!--do not display--yet-->
+    <section>
+        <div class="homepage-hero-module">
+            <div class="video-container">
+              <div class="filter"></div>
+              <video autoplay loop muted playsinline src="img/cover1.mp4" class="fillWidth"></video>
+              <div class="poster hidden">
+                <img src="img/hero-bg.jpg" alt="">
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--do not display--yet-->
 
     <!-- Testimonial Section Begin -->
-    <section class="testimonial-section spad">
+    <section class="testimonial-section spad" style="padding-top:0px; padding-bottom: 0px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -259,7 +283,7 @@
     <!-- Classes Section End -->
 
     <!-- Classes Timetable Section Begin -->
-    <section class="classes-timetable spad">
+    <section class="classes-timetable spad" style="padding-top: 0px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -629,8 +653,103 @@
       </div>
     </div>
         
+    <!-- Modal -->
+    <div class="modal fade" id="inscription" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Inscrivez-vous <i class="fa fa-heart" aria-hidden="true"></i> </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Mot de passe</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Confirmez votre mot de passe</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Adresse postale</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="101 rue des dalmatiens">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Complément d'adresse</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Digicode, lieu dit...">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">Ville</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Je souhaite m'inscrive à la newsletter sportive
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn primary-btn">S'inscrire</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="connexion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Connectez-vous</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- ICI JE MET LE FORMULAIRE !!!!! -->
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Adresse mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Votre adresse mail est strictement confidentielle.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Mot de passe</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Rester connecter</label>
+              </div>
+              <button type="submit" class="btn primary-btn">Connexion</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Trainer Section Begin -->
-    <section class="classes-section spad">
+    <section class="classes-section spad" style="padding-top: 0px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -686,7 +805,7 @@
     <!-- Trainer Section End -->
 
     <!-- Membership Section Begin -->
-    <section class="membership-section spad">
+    <section class="membership-section spad" style="padding-top: 0px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -769,11 +888,10 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="register-text">
-                        <div class="section-title">
+                        <div class="section-title testimonial-item">
                             <h2>VOUS ÊTES COACH SPORTIF ?</h2>
                             <p>N'hésitez plus et rejoignez notre communauté de sportifs !</p>
-                        </div>
-                        <form action="#" class="register-form">
+                            <form action="#" class="register-form">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <label for="name">Prénom</label>
@@ -794,11 +912,22 @@
                             </div>
                             <button type="submit" class="register-btn">Commencez !</button>
                         </form>
+                        </div>
+    <!-- carroussel --
+                        <div class="section-title testimonial-item">
+                            <h2>VOUS ÊTES COACH SPORTIF ?</h2>
+                            <h3>TOP 5 des raisons de nous rejoindre!</h3>
+                            <div>
+                                <span class="float-left mr-2" style="background-color:#F15D44;color:white;font-weight:bold;border-radius:50%;box-shadow:1px 1px 1px gray;width: 50px;height: 50px; padding-top: 2px font-size:30px;">1</span>
+                                <p>Vous aurez l'esprit tranquille</p>
+                            </div>
+                        </div>
+    ---a voir-->  
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="register-pic">
-                        <img src="img/register-pic.jpg" alt="">
+                        <img src="img/coach4.2.png" alt="">
                     </div>
                 </div>
             </div>
@@ -842,7 +971,7 @@
             </div>
             <div class="copyright-text">
                 <ul>
-                    <li><a href="#">Term&Use</a></li>
+                    <li><a href="#">Term & Use</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
                 <p>&copy;<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -855,7 +984,6 @@
                     <a href="#"><i class="fa fa-dribbble"></i></a>
                 </div>
             </div>
-        </div>
     </footer>
     <!-- Footer Section End -->
 
