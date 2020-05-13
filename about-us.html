@@ -44,9 +44,10 @@
                         <li><a href="./programme.html">Programme</a></li>
                         <li><a href="./contact.html">Agenda</a></li>
 						<li class="active"><a href="./about-us.html">À Propos </a></li>
+				   <li class="active" data-toggle="modal" data-target="#connexion"><a>Se connecter</a></li>
                     </ul>
                 </nav>
-                <a href="#" class="primary-btn signup-btn">Se connecter</a>
+               <a href="#" class="primary-btn signup-btn" style="background: linear-gradient(to left, #eb3c5a, #f67831)" style="width: 80px !important; height: 10px !important" data-toggle="modal" data-target="#inscription">S'inscrire</a>
             </div>
             <div id="mobile-menu-wrap"></div>
         </div>
@@ -214,6 +215,103 @@
             </div>
     </footer>
     <!-- Footer Section End -->
+		
+		
+		 <!-- Modal -->
+    <div class="modal fade" id="inscription" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Inscrivez-vous <i class="fa fa-heart" aria-hidden="true"></i> </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Mot de passe</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Confirmez votre mot de passe</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Adresse postale</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="101 rue des dalmatiens">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Complément d'adresse</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Digicode, lieu dit...">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">Ville</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Je souhaite m'inscrive à la newsletter sportive
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn primary-btn">S'inscrire</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="connexion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Connectez-vous</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- ICI JE MET LE FORMULAIRE !!!!! -->
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Adresse mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Votre adresse mail est strictement confidentielle.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Mot de passe</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Rester connecter</label>
+              </div>
+              <button type="submit" class="btn primary-btn">Connexion</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
