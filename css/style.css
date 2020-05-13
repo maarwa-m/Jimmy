@@ -301,7 +301,7 @@ ul, ol {
 
 .hero-section {
 	height: 880px;
-	padding-top: 335px;
+	padding-top: 170px;
 }
 .hero-text span {
 	font-size: 50px;
@@ -322,12 +322,21 @@ ul, ol {
 	margin-bottom: 44px;
 }
 
+.hero-section a {
+    margin: 20px 0px 0 200px; !important!;
+    right: auto;
+}
+
 /*---------------------S
   Mockup Section
 -----------------------*/
 
 .mockup {
-    margin: 0 0 200px 0px !important;
+    margin: 0 0 200px 0px !important!;
+}
+.pic {
+    height: 50%;
+    width: 50%
 }
 
 /*-------------
@@ -1438,6 +1447,13 @@ vidéo background
 	border: none;
 	text-transform: uppercase;
 }
+
+#moncercle{
+  background: #f15d44;
+  border-radius:50%;
+  width:20px;
+  height:20px;
+  border:0px solid #679403;
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
 @media only screen and (min-width: 1200px) {
