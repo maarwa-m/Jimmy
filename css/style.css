@@ -323,7 +323,7 @@ ul, ol {
 }
 
 .hero-section a {
-    margin: 20px 0px 0 200px;
+    margin: 20px 0px 0 200px; !important!;
 }
 
 /*---------------------S
@@ -331,7 +331,7 @@ ul, ol {
 -----------------------*/
 
 .mockup {
-    margin: 0 0 200px 0px !important;
+    margin: 0 0 200px 0px !important!;
 }
 .pic {
     height: 50%;
